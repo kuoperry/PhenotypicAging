@@ -1,0 +1,137 @@
+---
+title: Metrics of Aging - Phenotypic Aging in BLSA  
+author: Perry Kuo, Luigi Ferrucci, Jennifer Schrack, Michelle Shardell, Morgan Levine
+date: Oct 1, 2018
+output: 
+    html_document:
+        theme: cosmo 
+        toc: true
+        toc_float: true
+        highlight: tango
+        number_sections: false
+fig_width: 5
+fig_height: 5
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.align = "center", out.width = '70%')
+```
+The format is adopted from course led by [Dr. Stephanie Hicks](https://jhu-advdatasci.github.io/2018/)
+
+# Motivation 
+
+With the advent of public health and medical care, 
+the life expetancy has increased over past half century. 
+The society is aging, and there are more and more 
+researchers trying to understand the underlying mechanism
+why human age, and the potential modifiable facorts to 
+decelerate the aging process. To achieve these goals, some 
+researchers proposed some metrics to capture the  functional
+aging, such as frailty index, and further investigate the 
+relationship between functional aging and disability/mortality. 
+With the hypothesis that functions are especially important 
+for older people and applying potential approaches to improve 
+functions may maximize human's quality of life and prolong 
+longevity, functional aging has been one of the main foci
+in geriatric research over past two decades. Consequently, 
+it is of vital importance to understand the drivers of 
+functional declines, which can be potentially measured by 
+changes of phenotypes. 
+
+
+To understand the biological mechanism of aging, several metrics
+of biological age, such as epgenetic clock, have been proposed. 
+Among these proposed metrics, most of them utilized the data 
+available, and leverage 
+on the dimension reduction tools and choose the statitical 
+model fit the mortality the best as biological age. With lack of 
+a more conceptual and mechanistic framework, these metrics may
+be useful for mortality or cormorbitidy prediction, 
+but may not be able to capture the earlier change of aging.  
+
+
+Thus, we propose a temporal heirarchy framework for metrics of aging, 
+in which phenotypes serve as the bridge between underlying biological
+drivers of aging and the functional decline we observe.
+Earlier this year, the concept has been described by [Dr. Luigi Ferrucci et al](https://www.ahajournals.org/doi/10.1161/CIRCRESAHA.118.312816), 
+and is shown as following:
+
+
+```{r out.width = "95%", echo = FALSE, out.width='90%'}
+knitr::include_graphics("https://www.ahajournals.org/cms/attachment/95caf10e-c752-40b4-8dd9-9e04e4ed8a89/740fig03.gif")
+```
+
+with proposed measures as following:  
+
+```{r out.width = "95%", echo = FALSE, out.width='90%'}
+knitr::include_graphics("https://www.ahajournals.org/cms/attachment/58a653ae-d966-4816-8939-4464baa0c504/740fig01.gif")
+```
+
+With an attempt to understand these temporal heirarchy of aging, 
+in Baltimore Loungitudinal Study of Aging (BLSA), not only the 
+functions, but also the proposed phenotypes were measured within 
+participants with relatively health status when recruited, for 
+the purpose of diminishing the effect of diseases as more as possible. 
+
+
+In this paper, we try to understand: 
+
+*1. Are the proposed phenotypes appropriate in terms of functional decline?*    
+*2. Do the proposed phenotyes within the same domain capture similar properties? And do the prosposed phenotyeps accross different domians capture the construct of aging?* 
+
+
+# Are the proposed phenotypes appropriate? 
+
+
+```{r out.width = "95%", echo = FALSE, out.width='90%'}
+knitr::include_graphics("https://www.ahajournals.org/cms/attachment/58a653ae-d966-4816-8939-4464baa0c504/740fig01.gif")
+```
+
+The proposed measures have been earlier described in one paper published on
+[Circulatoin Research](https://www.ahajournals.org/doi/10.1161/CIRCRESAHA.118.312816). 
+
+These include: 
+* Energetics 
+* Body composition 
+* Homeostaic mechanism
+* Brain health   
+
+## Energetics 
+
+These include:
+* 
+* 
+* 
+* 
+
+## Body Composition  
+
+These include:
+* 
+* 
+* 
+* 
+
+## Homeostatic mechanism  
+
+These include:
+* 
+* 
+* 
+* 
+
+## Brain health   
+
+These include:
+* 
+* 
+* 
+* 
+
+
+# Do the proposed phenotyes within the same domain capture similar properties?     
+
+
+# Do the prosposed phenotyeps accross different domians capture the construct of aging?  
+
+
